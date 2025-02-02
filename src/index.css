@@ -51,3 +51,35 @@
 .reset-button:hover {
   background-color: yellowgreen;
 }
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.app {
+  text-align: center;
+}
+.reset-button {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.reset-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
